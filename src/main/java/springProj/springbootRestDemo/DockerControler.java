@@ -11,4 +11,10 @@ public class DockerControler {
 		return "Simple Spring boot application";
 	}
 
+	@GetMapping("/vishal")
+	public String getMyname(){
+		return "Vishal Gandhi";
+	}
+
+	
 }
